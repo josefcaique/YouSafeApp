@@ -44,6 +44,7 @@ class Loading extends Component{
     }, 4000);
   }
 
+  
   generateMessage(){
     let number = Math.floor(Math.random() * this.prhases.length);
     this.setState({
